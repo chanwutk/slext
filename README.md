@@ -11,7 +11,7 @@ Slext is an unofficial browser extension for extending the online LaTeX editor O
 
 ## To install
 
-A listing for the extension is maintained in [Google Chrome webstore](https://chrome.google.com/webstore/detail/slext/jlajbdlfgkklpjdgnhajdohfjbihming?hl=en) and [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/slext/). The listings are up to date with the `master` branch on this repository. If you want the latest features of the `develop` branch, you must install the extension from source. The process is described for Google Chrome and Firefox below.
+~A listing for the extension is maintained in [Google Chrome webstore](https://chrome.google.com/webstore/detail/slext/jlajbdlfgkklpjdgnhajdohfjbihming?hl=en) and [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/slext/). The listings are up to date with the `master` branch on this repository. If you want the latest features of the `develop` branch, you must install the extension from source. The process is described for Google Chrome and Firefox below.~
 
 ### Google Chrome
 
