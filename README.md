@@ -1,5 +1,7 @@
 # SLext
 
+## **Note**: This is a modified version that removes support for theming.
+
 [![Build Chrome + Firefox](https://github.com/hrjakobsen/slext/actions/workflows/build.yml/badge.svg)](https://github.com/hrjakobsen/slext/actions/workflows/build.yml)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jlajbdlfgkklpjdgnhajdohfjbihming)](https://chrome.google.com/webstore/detail/slext/jlajbdlfgkklpjdgnhajdohfjbihming)
 [![Mozilla Add-on](https://img.shields.io/amo/v/slext)](https://addons.mozilla.org/en-US/firefox/addon/slext/)
@@ -13,7 +15,7 @@ A listing for the extension is maintained in [Google Chrome webstore](https://ch
 
 ### Google Chrome
 
-Download from [Chrome webstore](https://chrome.google.com/webstore/detail/slext/jlajbdlfgkklpjdgnhajdohfjbihming?hl=en) or install from source.
+~Download from [Chrome webstore](https://chrome.google.com/webstore/detail/slext/jlajbdlfgkklpjdgnhajdohfjbihming?hl=en)~ or install from source OR download [chrome.zip](https://github.com/chanwutk/slext/raw/build/chrome.zip).
 
 To install from source, clone the repository:
 
@@ -30,7 +32,7 @@ Drag the packed chrome extension from the 'packages' directory onto the page to 
 
 ### Firefox
 
-Download from [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/slext/) or install from source.
+~Download from [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/slext/)~ or install from source OR download [firefix.zip](https://github.com/chanwutk/slext/raw/build/firefox.zip).
 
 To install from source, clone the repository:
 
