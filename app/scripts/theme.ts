@@ -151,7 +151,7 @@ export class ThemeModule {
     constructor(private slext: Slext) {
         // This does not work with constructor injection, and I don't know why
         this.settings = Container.get(Settings);
-        this.fixIcon();
+        // this.fixIcon();
         PersistenceService.load("theme", (theme: number | ThemeStructure) => {
             try {
                 if (theme == null) {
@@ -176,11 +176,11 @@ export class ThemeModule {
         }
     }
 
-    private fixIcon() {
-        const icon = $(".review-icon");
-        icon.addClass("sl-review-icon");
-        icon.removeClass("review-icon");
-        // eslint-disable-next-line @typescript-eslint/no-var-requires
-        icon.html(require("../templates/icon.html"));
-    }
+    // private fixIcon() {
+    //     const icon = $(".review-icon");
+    //     icon.addClass("sl-review-icon");
+    //     icon.removeClass("review-icon");
+    //     // eslint-disable-next-line @typescript-eslint/no-var-requires
+    //     icon.html(require("../templates/icon.html"));
+    // }
 }
