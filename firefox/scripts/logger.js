@@ -1,0 +1,1 @@
+!function(){function n(){}n.error=function(){for(var n=[],o=0;o<arguments.length;o++)n[o]=arguments[o]},n.log=function(){for(var n=[],o=0;o<arguments.length;o++)n[o]=arguments[o]},n.warn=function(){for(var n=[],o=0;o<arguments.length;o++)n[o]=arguments[o]},n.debug=function(){for(var n=[],o=0;o<arguments.length;o++)n[o]=arguments[o]}}();

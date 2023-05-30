@@ -1,0 +1,1 @@
+!function(){function t(){this.listeners=new Map}t.prototype.dispatch=function(t,s){this.listeners.has(t)&&this.listeners.get(t).forEach((function(t){t(s)}))},t.prototype.addEventListener=function(t,s){this.listeners.has(t)||this.listeners.set(t,new Array),this.listeners.get(t).push(s)}}();
