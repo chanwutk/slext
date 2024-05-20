@@ -1,0 +1,33 @@
+name: Publish Extensions
+
+on:
+    push:
+        branches: [dev]
+
+permissions:
+    contents: write
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+            - name: Install Node 16.x
+              uses: actions/setup-node@v1
+              with:
+                  node-version: 16.x
+            - run: npm ci
+            - run: npm run build:chrome
+            - run: npm run build:firefox
+            - run: sudo apt install -y zip
+            - run: |
+                  cd dist
+                  zip -r chrome.zip chrome
+                  zip -r firefox.zip firefox
+            - name: Publish Build
+              uses: JamesIves/github-pages-deploy-action@v4
+              with:
+                  folder: "dist"
+                  single-commit: true
+                  branch: "build"
